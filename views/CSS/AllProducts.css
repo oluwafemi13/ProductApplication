@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata');
+
+:root{
+    --primary-color: #191d4f;
+    --secondary-color: #424457;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+     
+    background-color:burlywood;
+}
+.productDiv{
+    display: flex;
+    flex-wrap: wrap;        
+}
+.productBox{
+    width: 150px;
+    margin: 1rem;
+    background-color: var(--primary-color);
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 1vw;
+}
+.productBox section{
+    text-align: center;
+}
+section:first-child{
+   margin-top: 1%;
+}
+section:first-child input{
+    font-size: 1vw;
+    width: 80px;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+
+#productList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+}

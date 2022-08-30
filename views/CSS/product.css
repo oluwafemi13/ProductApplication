@@ -1,0 +1,16 @@
+.productform{
+    margin-top: 1%;
+}
+#top-section{
+    margin-top: 2% !important;
+    margin-left: 2%;
+}
+#top-section input{
+    width: 80px;
+}
+input[type=submit]{
+    margin-left: -25%;
+}
+input[type=reset]{
+    margin-left: 5%;
+}
